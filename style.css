@@ -7,9 +7,6 @@
 body{
     background-image: radial-gradient(circle at 74.33% 25.67%, #606062 0, #151f34 50%, #00000a 100%);
 }
-
-
-
 .container{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #0d1424;
@@ -17,6 +14,9 @@ body{
     width: 100%;
     text-align: center;
     line-height: 140px;
+}
+.container h1{
+
 }
 #Foto{
     position: absolute;
@@ -203,7 +203,9 @@ li{
     border: 2px solid rgba(170, 161, 161, 0.493);
 }
 .perfil_pessoal{
-    margin-top: 5px;
+    color: rgba(245, 245, 245, 0.726);
+    margin-top: 8px;
+    margin-left: 6px;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -211,4 +213,9 @@ li{
 }
 .descrição de perfil{
     
+}
+.perfil_pessoal h2{
+    text-align: center;
+    color: #151f34;
+
 }
